@@ -1,0 +1,20 @@
+{
+	"name": "LinkedinBooster",
+	"version": "0.0.1",
+	"manifest_version": 2,
+	"description": "Linkedin Booster",
+	"icons": {
+		"16": "red.png",
+		"48": "red.png",
+		"128": "red.png"
+	},
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": true
+	},
+	"browser_action": {
+		"default_title": "Linkedin Booster",
+		"default_icon": "red.png"
+	},
+	"permissions": ["https://*/*", "http://*/*", "tabs"]
+}
